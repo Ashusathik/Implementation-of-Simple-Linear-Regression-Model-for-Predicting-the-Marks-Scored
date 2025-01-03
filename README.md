@@ -8,10 +8,10 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Define the relationship between independent (X) and dependent (Y) variables 
+2. Compute distances between the query point and all other points.
+3. Assign each data point to the nearest cluster centroid.
+4. Split the dataset into subsets based on the selected feature.
 
 ## Program:
 ```
@@ -20,6 +20,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: Mithun S
 RegisterNumber: 24901037
 */
+```
 ```
 import pandas as pd
 import numpy as np
@@ -63,7 +64,7 @@ mae=mean_bsolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse) 
 print("RMSE= ",rmse)
-
+```
 
 ## Output:
     Hours  Scores
