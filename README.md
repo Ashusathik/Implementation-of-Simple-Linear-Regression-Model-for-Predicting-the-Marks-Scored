@@ -67,6 +67,8 @@ print("RMSE= ",rmse)
 ```
 
 ## Output:
+
+
     Hours  Scores
 0     2.5      21
 1     5.1      47
